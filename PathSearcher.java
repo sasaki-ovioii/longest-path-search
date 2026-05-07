@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
 
-class PathSearcher{
+public class PathSearcher{
     static Map<Integer, Map<Integer, Double>> dic = new HashMap<>();
     static double maxDist = 0.0;
     static List<Integer> longestPath = new ArrayList<>();
